@@ -1,0 +1,8 @@
+.not-found .text {
+  line-height: 1.5;
+}
+@media (max-width: 767px) {
+  .not-found .row > div:last-child {
+    align-self: flex-start;
+  }
+}

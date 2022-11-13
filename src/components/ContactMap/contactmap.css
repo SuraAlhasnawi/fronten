@@ -1,0 +1,25 @@
+.title ul li a {
+  color: var(--color-dark);
+}
+.title ul li a.active {
+  color: var(--primary-color);
+}
+.title ul li:not(:last-child) a {
+  margin-right: 0.5rem;
+}
+.title ul li:not(:last-child)::after {
+  content: "\f105";
+  font: var(--fa-font-solid);
+  font-size: 12px;
+}
+@media (max-width: 767px) {
+  .contact-us .map,
+  .contact-us .map iframe {
+    height: 200px;
+  }
+  .contact-us .map img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}

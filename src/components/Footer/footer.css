@@ -1,0 +1,14 @@
+/* Start Footer */
+footer {
+  color: var(--color-dark);
+  background-color: var(--linear-gradient-dark);
+}
+footer ul li a i {
+  color: var(--secondary-color);
+  font-size: 1.25rem;
+  transition: all var(--transition-duration) ease;
+}
+footer ul li a i:hover {
+  color: var(--color-theme);
+}
+/* End Footer  */

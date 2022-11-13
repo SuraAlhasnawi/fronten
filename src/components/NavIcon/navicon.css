@@ -1,0 +1,30 @@
+nav .icons ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+  color: var(--color-dark);
+  background-color: var(--color-white);
+
+  box-shadow: 0 0 5px 4px var(--color-shadow);
+  border-radius: 50%;
+  position: relative;
+  transition: all var(--transition-duration) ease;
+}
+nav .icons ul li a:hover {
+  color: var(--color-theme);
+}
+nav .icons ul li .number {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  min-width: 20px;
+  min-height: 20px;
+  color: var(--color-white);
+  background-color: var(--color-theme);
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20px;
+  font-size: 0.75rem;
+}

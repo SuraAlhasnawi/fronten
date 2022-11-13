@@ -1,0 +1,9 @@
+/* Start Featured Products */
+.featured-products {
+  padding-top: 5rem;
+}
+.featured-products .row {
+  row-gap: 2rem;
+}
+
+/* End Featured Products */

@@ -1,0 +1,37 @@
+/* Start Hero Images */
+.hero-images {
+  padding: 3rem 0;
+}
+.hero-images .row {
+  row-gap: 2rem;
+}
+.hero-images .wrapper {
+  position: relative;
+}
+.hero-images .wrapper .details {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50%;
+}
+.hero-images .wrapper.item-1 .details {
+  right: 0;
+}
+.hero-images .wrapper.item-1 .details .shop-now {
+  background-color: var(--color-dark);
+}
+.hero-images .wrapper.item-2 .details {
+  left: 1.5rem;
+}
+.hero-images .wrapper.item-2 .details .title {
+  color: var(--color-dark);
+}
+.hero-images .wrapper.item-2 .details .shop-now {
+  background-color: var(--color-white);
+  color: var(--color-dark);
+}
+.hero-images .wrapper.item-2 .details .shop-now::before,
+.hero-images .wrapper.item-2 .details .shop-now::after {
+  border-color: var(--color-dark);
+}
+/* End Hero Images */

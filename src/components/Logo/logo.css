@@ -1,0 +1,9 @@
+nav .logo {
+  text-transform: capitalize;
+}
+nav .logo .title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: var(--nav-height);
+  color: var(--color-dark);
+}

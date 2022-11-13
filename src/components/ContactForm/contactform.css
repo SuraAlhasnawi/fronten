@@ -1,0 +1,25 @@
+/* Start Contact Form */
+.contact-us form .error-message {
+  color: red;
+  font-size: 0.75rem;
+}
+.contact-us form input.error,
+.contact-us form textarea.error {
+  border-color: red;
+  color: red;
+}
+.contact-us .contact-form form textarea {
+  margin-top: 25px;
+}
+.contact-us .contact-form form .form-control {
+  border-radius: 0;
+}
+.contact-us .contact-form form .form-control:focus {
+  box-shadow: none;
+}
+@media (max-width: 575px) {
+  .contact-us .contact-form form textarea {
+    margin: 0;
+  }
+}
+/* End Contact Form */

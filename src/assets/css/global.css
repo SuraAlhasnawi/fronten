@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Poppins:wght@100;200;300;400;500;600;700;800&family=Roboto:wght@400;500;700&display=swap");
+
+:root {
+  --primary-color: rgb(255, 77, 77);
+  --primary-color-light: #e2c3c3;
+  --secondary-color: #333;
+  --transition-duration: 0.25s;
+  --nav-height: 4rem;
+  --nav-menu-width: 250px;
+
+  --color-white: #ffffff;
+  --color-theme: #ff7373;
+  --color-dark: #222529;
+  --color-shadow: rgba(0, 0, 0, 0.1);
+  --linear-gradient-dark: #e6e6e6;
+  --linear-gradient-light: #f5f5f5;
+}
+/* Start Global Rules */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+/* End Global Rules */

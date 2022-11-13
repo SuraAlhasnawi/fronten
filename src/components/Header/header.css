@@ -1,0 +1,72 @@
+/* Start Header */
+header {
+  background: linear-gradient(to right, #eaeaea, #f0f0f0);
+  /* padding: 1rem 0; */
+}
+header .wrapper {
+  position: relative;
+}
+header .wrapper .items {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+@media (max-width: 767px) {
+  header .wrapper {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  header .wrapper .items {
+    position: relative;
+  }
+}
+header .wrapper .items .title span {
+  display: block;
+  font-weight: bold;
+}
+header .wrapper .items .shop-now,
+.featured-products .item .image .quick-view,
+.side-by-side .item .image .quick-view,
+.hero-images .wrapper .details .shop-now,
+.side-by-side .wrapper .please-sale,
+.contact-us .contact-form .btn-post-comment {
+  background-color: var(--color-theme);
+  position: relative;
+}
+header .wrapper .items .shop-now::before,
+header .wrapper .items .shop-now::after,
+.featured-products .item .image .quick-view::before,
+.featured-products .item .image .quick-view::after,
+.side-by-side .item .image .quick-view::before,
+.side-by-side .item .image .quick-view::after,
+.hero-images .details .shop-now::before,
+.hero-images .details .shop-now::after,
+.side-by-side .wrapper .please-sale::before,
+.side-by-side .wrapper .please-sale::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+}
+header .wrapper .items .shop-now::before,
+.featured-products .item .image .quick-view::before,
+.side-by-side .item .image .quick-view::before,
+.hero-images .details .shop-now::before,
+.side-by-side .wrapper .please-sale::before {
+  top: 0.5rem;
+  left: 0.5rem;
+  border-top: 2px solid var(--color-white);
+  border-left: 2px solid var(--color-white);
+}
+header .wrapper .items .shop-now::after,
+.featured-products .item .image .quick-view::after,
+.side-by-side .item .image .quick-view::after,
+.hero-images .details .shop-now::after,
+.side-by-side .wrapper .please-sale::after {
+  bottom: 0.5rem;
+  right: 0.5rem;
+  border-bottom: 2px solid var(--color-white);
+  border-right: 2px solid var(--color-white);
+}
+/* End Header */
